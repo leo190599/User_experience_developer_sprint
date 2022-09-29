@@ -1,0 +1,15 @@
+.imagem_panoramica{
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.imagens-lado
+{
+    width: 400px;
+    height: auto;
+}
+
+.carousel-parametros{
+    width: 700px;
+}
