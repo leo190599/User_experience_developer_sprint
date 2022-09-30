@@ -1,13 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-color: #9edb2b;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-indent: 1cm;
+}
+
+.simbolo{
+    height: 40px;
+    border-radius: 100%;
+}
+
+.navbar_estilo
+{
+    background-color: #9edb2b;
+}
+
+.navbar_texto{
+    color: black;
+}
+
 .imagem_panoramica{
     height: 300px;
     width: 100%;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     object-fit: cover;
+    /* border-width: 5px; */
 }
 .imagens-lado
 {
     width: 400px;
     height: auto;
+    border-radius: 60px;
+}
+
+.Sessao_descricao{
+    background-color: #b65b11;
+    padding: 30px;
+}
+.Sessao_descricao-2
+{
+    background-color: #1187b6;
+    padding: 30px;
+}
+
+.Sessao_descricao-3{
+    padding: 30px;
+}
+
+.Integrante{
+    width: 300px;
+    height: auto;
+}
+
+.integrante-imagem{
+    border-radius: 100%;
+    object-fit: cover;
+}
+.integrante-background{
+    background-color: #f2bd39;
+    border-radius: 10px;
+}
+
+.integrante-texto{
+    text-align: center;
+    color: black;
+    text-indent: 0%;
 }
 
 .carousel-parametros{
