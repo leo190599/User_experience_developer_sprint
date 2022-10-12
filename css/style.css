@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --botao-cor: #b91e13;
+    --botao-hover:#7e1c15;
+    --botao-pressionado: #641212;
+}
+
 body{
     background-color: #9edb2b;
     color: white;
     font-family: 'Fredoka One', cursive;
-
 }
 
 p{
@@ -75,6 +81,41 @@ p{
     color: black;
     text-indent: 0%;
 }
+
+.video-estilo
+{
+    width: 700px;
+}
+
+.sessao-form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-right: 10px;
+    align-items: flex-start;
+}
+
+.texto-form{
+
+}
+
+.btn-formulario {
+    --bs-btn-color: #fff;
+  --bs-btn-bg: var(--botao-cor);
+  --bs-btn-border-color: var(--botao-cor);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--botao-hover);
+  --bs-btn-hover-border-color: var(--botao-hover);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--botao-pressionado);
+  --bs-btn-active-border-color: var(--botao-pressionado);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+  }
 
 .carousel-parametros{
     width: 700px;
